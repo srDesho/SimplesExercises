@@ -9,7 +9,7 @@ public class MatrizSimetrica {
         boolean esSimetrica = true;
         salir: for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < i; j++) {
-                if (matriz[i][j] != matriz[j][i]) {
+                if (matriz[i][j] != matriz[j][i] && esSimetrica) {
                     esSimetrica = false;
                     break salir;
                 }
