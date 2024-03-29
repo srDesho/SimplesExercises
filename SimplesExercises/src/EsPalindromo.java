@@ -12,7 +12,7 @@ public class EsPalindromo {
         dato = scan.nextLine();
         // Eliminar espacios y convertir la cadena a minúsculas para ignorar mayúsculas y minúsculas
         dato.replaceAll("\\s+", "").toLowerCase();
-        
+
         // Verificamos
         String invertido = "";
         for (int i =  dato.length() - 1; i >= 0; i--) {
