@@ -20,6 +20,7 @@ public class SerieFibonacci {
             System.out.print(ultimoEle + ", ");
             primerEle = aux;
             i++;
+            
         }
 
     }
